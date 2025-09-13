@@ -93,9 +93,9 @@ export default {
           to: { height: "0" },
         },
         "mesh-float": {
-          "0%, 100%": { transform: "translate(0, 0) rotate(0deg)" },
-          "33%": { transform: "translate(30px, -30px) rotate(120deg)" },
-          "66%": { transform: "translate(-20px, 20px) rotate(240deg)" },
+          "0%, 100%": { transform: "translate(0, 0)" },
+          "33%": { transform: "translate(30px, -30px)" },
+          "66%": { transform: "translate(-20px, 20px)" },
         },
         "particle-drift": {
           "0%": { transform: "translate(0, 0)" },
