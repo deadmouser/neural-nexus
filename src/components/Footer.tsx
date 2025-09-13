@@ -3,10 +3,10 @@ import finspeakLogo from "@/assets/finspeak-logo.png";
 
 const Footer = () => {
   const footerLinks = {
-    Product: ["Features", "Pricing", "API", "Documentation", "Integrations"],
+    Product: ["Features", "Privacy Controls", "AI Insights", "Documentation", "Security"],
     Company: ["About", "Blog", "Careers", "Press", "Contact"],
-    Resources: ["Help Center", "Community", "Guides", "Webinars", "Status"],
-    Legal: ["Privacy Policy", "Terms of Service", "Cookie Policy", "GDPR", "Security"]
+    Resources: ["Help Center", "Financial Guides", "Tutorials", "API Docs", "System Status"],
+    Legal: ["Privacy Policy", "Terms of Service", "Data Protection", "GDPR", "Financial Security"]
   };
 
   const socialLinks = [
@@ -38,8 +38,8 @@ const Footer = () => {
             </div>
             
             <p className="text-muted-foreground mb-8 max-w-md leading-relaxed">
-              Revolutionizing marketing automation with AI-powered solutions that 
-              deliver personalized experiences and drive sustainable business growth.
+              Your privacy-first AI financial assistant that provides personalized insights 
+              while keeping your sensitive financial data under your complete control.
             </p>
             
             {/* Social Links */}
@@ -89,7 +89,7 @@ const Footer = () => {
               Stay Updated with FinSpeak.ai
             </h3>
             <p className="text-muted-foreground mb-6">
-              Get the latest insights on AI marketing trends and product updates 
+              Get the latest insights on AI finance management, privacy updates, and new features 
               delivered to your inbox.
             </p>
             

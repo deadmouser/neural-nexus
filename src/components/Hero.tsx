@@ -22,23 +22,22 @@ const Hero = () => {
         {/* Badge */}
         <div className="inline-block mb-8 animate-fade-up">
           <span className="glass-card px-4 py-2 text-sm font-medium text-accent border border-card-border">
-            Modern Marketing Website
+            Privacy-First AI Finance Assistant
           </span>
         </div>
         
         {/* Headline */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-poppins font-bold text-white mb-6 animate-fade-up animate-delay-100">
-          Automate Your Marketing{" "}
+          Let AI Speak to Your{" "}
           <span className="text-transparent bg-clip-text bg-gradient-primary">
-            Conversions
-          </span>{" "}
-          with AI
+            Money
+          </span>
         </h1>
         
         {/* Subtext */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-up animate-delay-200 leading-relaxed">
-          AI-driven campaigns, smart audience segmentation, and automated engagement 
-          time increase efficiency while delivering personalized experiences that convert.
+          Your personal AI finance assistant that understands your complete financial picture. 
+          Get personalized insights, forecasts, and actionable advice with full control over your data privacy.
         </p>
         
         {/* CTA Buttons */}
@@ -64,7 +63,7 @@ const Hero = () => {
           <div className="glass-card p-4 hover:shadow-glow-intense transition-all duration-500">
             <img 
               src={heroDashboard}
-              alt="FinSpeak.ai AI Marketing Dashboard"
+              alt="FinSpeak.ai Personal Finance AI Dashboard showing comprehensive financial overview"
               className="rounded-lg w-full h-auto shadow-2xl"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent rounded-lg pointer-events-none"></div>

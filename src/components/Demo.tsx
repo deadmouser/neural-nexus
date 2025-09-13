@@ -5,22 +5,21 @@ import heroDashboard from "@/assets/hero-dashboard.jpg";
 const Demo = () => {
   return (
     <section id="demo" className="py-24 relative">
-      {/* Animated Background */}
-      <div className="absolute inset-0 mesh-bg opacity-50"></div>
-      <div className="absolute inset-0 particle-grid opacity-20"></div>
+      {/* Background Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background to-background-secondary"></div>
       
       <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-poppins font-bold text-white mb-6">
-            See FinSpeak.ai in{" "}
+            Experience Your AI{" "}
             <span className="text-transparent bg-clip-text bg-gradient-primary">
-              Action
+              Finance Assistant
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            Experience the power of AI-driven marketing automation through our 
-            interactive dashboard and see how it transforms your business operations.
+            See how natural conversations with AI can unlock deep insights about your 
+            financial health, spending patterns, and future planning opportunities.
           </p>
           
           {/* Device Selector */}
@@ -53,7 +52,7 @@ const Demo = () => {
               </div>
               <div className="flex-1 mx-4">
                 <div className="glass-card px-4 py-1 rounded-full text-sm text-muted-foreground">
-                  https://app.finspeak.ai/dashboard
+                  https://app.finspeak.ai/finance-dashboard
                 </div>
               </div>
               <Button variant="glass" size="sm" className="opacity-75">
@@ -66,26 +65,26 @@ const Demo = () => {
             <div className="relative overflow-hidden rounded-lg">
               <img 
                 src={heroDashboard}
-                alt="FinSpeak.ai Live Dashboard Demo"
+                alt="FinSpeak.ai Personal Finance AI Assistant Dashboard Demo"
                 className="w-full h-auto transition-transform duration-700 group-hover:scale-105"
               />
               
               {/* Interactive Overlay Elements */}
               <div className="absolute inset-0 pointer-events-none">
-                {/* Animated Metrics */}
+                {/* Animated Financial Metrics */}
                 <div className="absolute top-6 left-6 glass-card p-3 rounded-lg animate-glow">
-                  <div className="text-xs text-muted-foreground">Conversion Rate</div>
-                  <div className="text-lg font-bold text-accent">+34.2%</div>
+                  <div className="text-xs text-muted-foreground">Monthly Savings</div>
+                  <div className="text-lg font-bold text-accent">₹25,430</div>
                 </div>
                 
                 <div className="absolute top-6 right-6 glass-card p-3 rounded-lg animate-glow animate-delay-200">
-                  <div className="text-xs text-muted-foreground">Active Campaigns</div>
-                  <div className="text-lg font-bold text-accent">24</div>
+                  <div className="text-xs text-muted-foreground">Budget Remaining</div>
+                  <div className="text-lg font-bold text-accent">68%</div>
                 </div>
                 
                 <div className="absolute bottom-6 left-6 glass-card p-3 rounded-lg animate-glow animate-delay-400">
-                  <div className="text-xs text-muted-foreground">AI Accuracy</div>
-                  <div className="text-lg font-bold text-accent">97.8%</div>
+                  <div className="text-xs text-muted-foreground">Net Worth Growth</div>
+                  <div className="text-lg font-bold text-accent">+12.3%</div>
                 </div>
                 
                 {/* Pulsing Dots */}
@@ -105,16 +104,16 @@ const Demo = () => {
             {/* Feature Highlights */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
               <div className="glass-card p-4 text-center">
-                <div className="text-2xl font-bold text-accent mb-2">50K+</div>
-                <div className="text-sm text-muted-foreground">Messages Processed Daily</div>
+                <div className="text-2xl font-bold text-accent mb-2">₹2.5M+</div>
+                <div className="text-sm text-muted-foreground">Assets Under Management</div>
               </div>
               <div className="glass-card p-4 text-center">
                 <div className="text-2xl font-bold text-accent mb-2">99.9%</div>
-                <div className="text-sm text-muted-foreground">Uptime Reliability</div>
+                <div className="text-sm text-muted-foreground">Data Security Uptime</div>
               </div>
               <div className="glass-card p-4 text-center">
-                <div className="text-2xl font-bold text-accent mb-2">&lt; 200ms</div>
-                <div className="text-sm text-muted-foreground">Response Time</div>
+                <div className="text-2xl font-bold text-accent mb-2">&lt; 1s</div>
+                <div className="text-sm text-muted-foreground">AI Response Time</div>
               </div>
             </div>
           </div>

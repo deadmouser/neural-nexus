@@ -26,8 +26,8 @@ const Header = () => {
             <a href="#features" className="nav-link text-foreground hover:text-accent">
               Features
             </a>
-            <a href="#pricing" className="nav-link text-foreground hover:text-accent">
-              Pricing
+            <a href="#demo" className="nav-link text-foreground hover:text-accent">
+              Demo
             </a>
             <a href="#contact" className="nav-link text-foreground hover:text-accent">
               Contact

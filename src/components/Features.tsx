@@ -1,28 +1,28 @@
-import { Brain, Target, Zap, TrendingUp, Users, MessageCircle } from "lucide-react";
+import { Shield, MessageSquare, BarChart3, TrendingUp, Users, MessageCircle } from "lucide-react";
 import featureMockup from "@/assets/feature-mockup.jpg";
 
 const Features = () => {
   const features = [
     {
-      icon: Brain,
-      title: "AI-Powered Campaigns",
-      description: "Leverage advanced machine learning algorithms to create highly targeted marketing campaigns that adapt in real-time based on user behavior and engagement patterns.",
+      icon: Shield,
+      title: "Privacy-First Data Control",
+      description: "Grant or revoke AI access to specific financial data categories with granular permissions. Your sensitive information stays under your complete control with enterprise-grade security.",
       image: featureMockup,
-      stats: "92% Conversion Rate Increase"
+      stats: "Bank-Level Security"
     },
     {
-      icon: Target,
-      title: "Smart Audience Segmentation",
-      description: "Automatically identify and segment your audience using behavioral data, demographics, and engagement history for precision targeting that maximizes ROI.",
+      icon: MessageSquare,
+      title: "Natural Language Insights",
+      description: "Ask questions in plain English like 'How much did I spend last month?' and get intelligent, context-aware responses about your complete financial picture.",
       image: featureMockup,
-      stats: "3x Better Targeting Accuracy"
+      stats: "Human-Like Conversations"
     },
     {
-      icon: Zap,
-      title: "Automated Engagement",
-      description: "Deploy intelligent chatbots and automated workflows that engage customers at the perfect moment with personalized messages that drive conversions.",
+      icon: BarChart3,
+      title: "Comprehensive Financial View",
+      description: "Integrates all your financial data - assets, liabilities, investments, EPF, credit score - into one unified, AI-powered personal finance assistant.",
       image: featureMockup,
-      stats: "24/7 Automated Operations"
+      stats: "360° Financial Analysis"
     }
   ];
 
@@ -35,14 +35,14 @@ const Features = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-poppins font-bold text-white mb-6">
-            Powerful AI Features for{" "}
+            Revolutionary AI Features for{" "}
             <span className="text-transparent bg-clip-text bg-gradient-primary">
-              Modern Marketing
+              Personal Finance
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Transform your marketing strategy with cutting-edge AI technology designed 
-            to maximize engagement and drive sustainable growth.
+            Experience the future of financial management with AI that understands your money 
+            while respecting your privacy and giving you complete control.
           </p>
         </div>
         
@@ -99,11 +99,11 @@ const Features = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <p className="text-muted-foreground mb-6">
-            Ready to revolutionize your marketing approach?
+            Ready to transform your relationship with money?
           </p>
           <div className="inline-flex items-center gap-4">
             <div className="h-px w-16 bg-gradient-to-r from-transparent to-accent"></div>
-            <span className="text-accent font-medium">Get Started Today</span>
+            <span className="text-accent font-medium">Start Your Financial Journey</span>
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-accent"></div>
           </div>
         </div>
