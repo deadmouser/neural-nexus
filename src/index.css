@@ -60,12 +60,10 @@
     @apply border-border;
   }
   
-  html {
-    @apply dark;
-  }
 
   body {
-    @apply bg-background text-foreground font-inter;
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
     background: linear-gradient(135deg, hsl(220 27% 8%), hsl(217 19% 12%));
     min-height: 100vh;
   }
