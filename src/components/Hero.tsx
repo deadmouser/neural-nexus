@@ -16,9 +16,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center pt-20 mesh-bg">
-      {/* Particle Grid Background */}
-      <div className="absolute inset-0 particle-grid opacity-30"></div>
+    <section id="home" className="relative min-h-screen flex items-center justify-center pt-20">
       
       <div className="container mx-auto px-6 text-center relative z-10">
         {/* Badge */}
@@ -73,8 +71,8 @@ const Hero = () => {
           </div>
           
           {/* Floating Elements */}
-          <div className="absolute -top-6 -right-6 w-12 h-12 rounded-full bg-accent/20 animate-glow hidden lg:block"></div>
-          <div className="absolute -bottom-8 -left-8 w-16 h-16 rounded-full bg-primary/20 animate-glow hidden lg:block"></div>
+          <div className="absolute -top-6 -right-6 w-12 h-12 rounded-full bg-accent/20 hidden lg:block"></div>
+          <div className="absolute -bottom-8 -left-8 w-16 h-16 rounded-full bg-primary/20 hidden lg:block"></div>
         </div>
       </div>
     </section>
