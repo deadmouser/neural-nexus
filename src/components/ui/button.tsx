@@ -15,11 +15,17 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Futuristic Variants for FinSpeak.ai
+        gradient: "bg-gradient-primary text-white btn-sheen hover:shadow-glow transition-all duration-300 font-semibold",
+        glass: "glass-card text-white hover:text-accent border-card-border backdrop-blur-glass font-medium",
+        "glass-outline": "bg-transparent border-2 border-card-border text-white hover:bg-glass hover:text-accent hover:shadow-glow transition-all duration-300",
+        neon: "bg-accent text-accent-foreground hover:shadow-glow-intense hover:scale-105 transition-all duration-300 font-semibold animate-glow",
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
+        xl: "h-14 rounded-lg px-12 text-lg",
         icon: "h-10 w-10",
       },
     },
